@@ -18,11 +18,33 @@
   font-size: 1.5em;
 }
 
-.App-intro {
-  font-size: large;
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  display: inline-block;
+  border: 1px dashed blueviolet;
+  margin: 1em;
+}
+
+ul li a,
+.Home-Anchor {
+  padding: 0.5em 2em;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+}
+.Home-Anchor {
+  margin-top: 0.5em;
+  border: 1px dashed blueviolet;
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
